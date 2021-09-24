@@ -7,7 +7,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-.github/
+*.egg-info
 __pycache__
 dist/
 *.pyc

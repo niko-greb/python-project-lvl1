@@ -1,11 +1,12 @@
-#!/usr/bin/env python
+#! /usr/bin/env python
+
+"""Входи в игрую."""
+
 from brain_games import cli
 
 
 def main():
-    """
-    Вход в программу. Функция вызова функционала.
-    """
+    """Вход в программу. Функция вызова функционала."""
     cli.welcome_user()
 
 
