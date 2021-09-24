@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python3
 
 """Логика игры будет описана здесь."""
 
@@ -7,9 +7,7 @@ import prompt
 
 def welcome_user():
     """
-    Выдает приветственное сообщение.
-    Задает вопрос о имени пользователя -
-    Пользователь вводит сообщение с клавиатуры. Приветсвует юзера по имени
+    Greeting message. Ask name. Greetings by name.
     """
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
